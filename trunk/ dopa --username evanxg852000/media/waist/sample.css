@@ -1,0 +1,39 @@
+
+.thumbs {
+	clear: both;
+	margin: 10px auto;
+}
+.thumbnails div {
+	position: relative;
+	width: 60px;
+	height: 45px;
+	float: left;
+	margin: 8px;
+	padding: 0;
+	float: left;
+	display: inline;
+}
+.thumbnails img {
+	top: 0px;
+	left: 0px;
+	width: 60px;
+	height: 45px;
+	position: absolute;
+	z-index: 1;
+	border: 2px solid #000000;
+	cursor: pointer;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+}
+.preview {
+	padding: 10px 10px 20px 10px;
+	margin-bottom: 5px;
+	width: 240px;
+	float: left;
+	margin-right: 10px;
+	position: absolute;
+	left: 140px;
+	top: 104px;
+	height: 163px;
+}
+

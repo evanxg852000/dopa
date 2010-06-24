@@ -1,0 +1,64 @@
+/* CSS Document */
+/* Copyright : Design by Thoy Cut by Gounlaf pour http://www.kits-gratuits.net */
+
+body {
+	background:url('./images/bg.png') repeat-x #E0E2E6;
+	color:#4C4C4B;
+	font: bold 13px "Trebuchet MS",Verdana, Tahoma, Arial, Helvetica, sans-serif;
+	padding:0;
+	margin:0;
+	}
+	
+div#contenu {
+	width:900px;
+	height:auto;
+	margin:auto;
+	}
+
+ul , li { margin:0; padding:0; list-style-type:none; }
+a { color:#4C4C4B; text-decoration:none; font-weight:bold; }
+a:hover { color:#666666; font-weight:bold; }
+a img { border:0; }
+h1, h2, h3, h4, h5 { margin:0; font-size:100%; font-weight:normal; }
+p { margin:0; padding:5px; font-size:90%; }
+div.clear { clear:both; }
+
+div#header {
+	background:url('./images/kiwi.png') no-repeat;
+	width:382px;
+	padding-left:266px;
+	height:155px;
+	text-transform: capitalize;
+	margin-bottom:40px;
+	}
+	
+h1 { font-size:350%; color:#B0D40A; }
+h1 span { display:block; font-size:40%; color:#7D7D7D; letter-spacing:5px; }
+
+div#cadre_droite {
+	width:161px;
+	height:auto;
+	float:left;
+	text-align:center;
+	}
+	
+div#texte {
+	float:left;
+	width:400px;
+	margin-left:16px !important;
+	margin-left:8px;
+	}
+
+	
+	
+	
+div.post { margin-bottom:50px; }
+.post h2 { border-bottom:1px dotted #030303; text-transform:uppercase; color:#B0D40A; font-size:150%; }
+p.infos { color:#D6D6D5; font-size:80%; }
+
+p#footer { clear:both; text-align:center; }
+
+.logo a{
+	color:#B0D40A;
+	text-transform: uppercase;
+}

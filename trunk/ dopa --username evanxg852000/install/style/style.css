@@ -1,0 +1,88 @@
+/*------------------CORE------------*/
+body{
+ background: url(bg.png);
+ background-repeat: repeat-y;
+ font: bold 13px "Trebuchet MS",Verdana, Tahoma, Arial, Helvetica, sans-serif;
+}
+#gauche{
+	float: left;
+}
+#etape1{
+	background: #FFD9CC;
+	float: right;
+	border: dashed 1px;
+	width:950px;
+	height: 110px;
+}
+#etape2{
+	background: #FFFFC6;
+	float: right;
+	border: dashed 1px;
+	width:950px;
+	height: 110px;
+}
+#etape3{
+	background: #E1F0C0;
+	float: right;
+	border: dashed 1px;
+	width:950px;
+	height: 120px;
+}
+.vide{
+ height: 10px;
+ clear: both;
+}
+
+#finalisation{
+	background:  #8CA5EA;
+	float: right;
+	border: dashed 1px;
+	width:950px;
+	height: 40px;
+}
+h3{
+	color: #9A9A9A;
+	font-family: Verdana;
+	font-weight: bold;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+legend{
+	color: #9A9A9A;
+	font-family: Verdana;
+	font-weight: bold;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+.eror{
+	background: #FFD9CC;
+	color: #6F6F6F;
+}
+#echeque{
+	
+}
+#succes{
+	
+}
+.button{
+	border: solid 1px Gray;
+	color: White;
+	background: url('bt.png');
+	font-weight: bold;
+	 font-family: "Trebuchet MS", Hevlvetica, sans-serif;
+}
+.inputbox {
+	padding: 2px;
+	border:solid 1px  White;
+	background-color:#495674;
+	color: #ffffff;
+	font: 11px "Trebuchet MS";
+}
+label{
+	color: #555555;
+}
+.error{
+	background: #D15252;
+	color: #fff;
+	font-size: 11px;
+}

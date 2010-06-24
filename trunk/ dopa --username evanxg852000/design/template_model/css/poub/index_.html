@@ -1,0 +1,167 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+<title>Titre du Site</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="Content-Language" content="fr" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta name="DC.Language" scheme="RFC3066" content="fr" />
+	<link rel="stylesheet" type="text/css" href="menuhorizontal.css" >
+	<link rel="stylesheet" href="cherche.css" type="text/css" />
+<link rel="stylesheet" href="mod_menu.css" type="text/css" media="screen" title="Normal" />
+<link rel="stylesheet" href="style.css" type="text/css" media="screen" title="Normal" />
+
+<script language="JavaScript" type="text/javascript" src="SpryCollapsiblePanel.js"></script>
+
+</head>
+<body>
+	<div class="search">
+			<form action="index.php" method="Get">
+				<input name="searchword" id="mod_search_searchword" maxlength="20" alt="Recherche" class="inputbox" type="text" size="20" value="recherche..."  onblur="if(this.value=='') this.value='recherche...';" onfocus="if(this.value=='recherche...') this.value='';" />	
+				<input type="hidden" name="task"   value="search" />
+				<input type="hidden" name="option" value="com_search" />
+			</form>
+	</div>
+
+	<div id="header">
+	
+		<div class="logo"><h1><a href="#">Dopa V0.3</a><span>Express Edition</span></h1></div>
+
+		<ul id="menuhorizontal">
+		<li>
+			<a href="#">Acceuil</a>
+			<ul class="sousmenu">
+				<li><a href="#">Beaucoup</a></li>
+				<li><a href="#">Barrages !</a></li>
+				<li><a href="#">Grandes</a></li>		
+			</ul>
+		</li>
+		<li>
+			<a id="elem-1" href="#">Services</a>
+			<ul class="sousmenu">			      
+				<li><a id="elem-1.1" href="#">whisky</a></li>
+				<li><a id="elem-1.2" href="#">vodka</a></li>
+				<li><a id="elem-1.3" href="#">gin</a></li>
+				<li><a id="elem-1.4" href="#">vin</a></li>
+				<li><a id="elem-1.5" href="#">champagne</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="#">Contacts</a>
+			<ul class="sousmenu">			      
+				<li><a href="#">pommes</a></li>
+				<li><a href="#">poires</a></li>
+				<li><a href="#">ananas</a></li>
+				<li><a href="#">pamplemousse</a></li>
+				<li><a href="#">banane</a></li>				
+				<li><a href="#">raisins</a></li>
+				<li><a href="#">framboises</a></li>
+				<li><a href="#">fraises</a></li>
+				<li><a href="#">mirabelles</a></li>
+				<li><a href="#">groseilles</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="#">Forum</a>
+			<ul class="sousmenu">			      
+				<li><a href="#">tomates</a></li>
+				<li><a href="#">haricots</a></li>
+				<li><a href="#">carrottes</a></li>
+				<li><a href="#">choux</a></li>
+				<li><a href="#">concombres</a></li>				
+				<li><a href="#">courgettes</a></li>
+				<li><a href="#">endives</a></li>
+				<li><a href="#">navets</a></li>
+				<li><a href="#">epinards</a></li>
+				<li><a href="#">avocat</a></li>
+			</ul>
+		</li>
+	</ul>
+		
+		
+	</div>
+
+<div id="contenu">
+	<div id="cadre_droite">
+							
+							<div class="mod_menu" id="mai_menu">
+								<div>
+									
+									<div id="CollapsiblePanelGroup1" class="CollapsiblePanelGroup">
+									
+										<div class="CollapsiblePanel" onmouseover="TagToTip('Description', STICKY, true, CLICKCLOSE, true, WIDTH,250, TITLE, 'Aide ?')" >
+												<h3 class="CollapsiblePanelTab" >Menu Principal</h3>
+													<div class="CollapsiblePanelContent">
+														<ul class="menu">
+															<li id="current" class="active item1">
+																<a href="homefr.php"><span>Accueil</span></a>
+															</li>
+															<li class="parent item27">
+																<a href="conceptionweb.php"><span>Site web</span></a>
+															</li>
+															<li class="item2">
+																<a href="hebergement.php"><span>Hébergement</span></a>
+															</li>
+															<li class="item37">
+																<a href="conceptionapp.php"><span>Applications</span></a>
+															</li>
+															<li class="item41">
+																<a href="publicite.php"><span>Publicité</span></a>
+															</li>
+															<li class="item50">
+																<a href=" boutique.php"><span>Boutique</span></a>
+															</li>
+															<li class="item48">
+																<a href="telecharger.php"><span>Télécharger</span></a>
+															</li>
+															<li class="item49">
+																<a href="multimedia.php"><span>Multimédia</span></a>
+															</li>
+															<li class="item49">
+																<a href="livre_or.php"><span>Livre d'or</span></a>
+															</li>
+															<li class="item49">
+																<a href="contacts.php"><span>Contacts</span></a>
+															</li>
+														</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+	
+	</div>
+	
+	<div id="texte">
+
+		<div class="post">
+			<h2>Billet Premier</h2>
+			<p class="infos">R&eacute;dig&eacute; par THOY, le samedi 24 juin &agrave; 23h30 :: Annonces</p>
+			
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam purus turpis, vehicula a, dignissim rutrum, tempor sed, odio. Aliquam quis risus. Sed quam. Donec molestie est at leo. Quisque ut nibh. Nullam erat felis, fringilla et, posuere vel, ultrices eu, risus. Quisque ullamcorper velit sed dui convallis fermentum. Integer at sem vitae odio mollis vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent tristique massa et felis. Donec faucibus, erat ac accumsan mattis, orci mi scelerisque erat, id laoreet quam risus a ipsum. Quisque luctus venenatis augue. Vivamus pellentesque nunc sed turpis. Phasellus arcu magna, auctor convallis, pharetra non, consequat vel, nulla. Sed accumsan egestas eros.</p>
+		</div>
+
+		<div class="post">
+			<h2>Billet Premier</h2>
+			<p class="infos">R&eacute;dig&eacute; par THOY, le samedi 24 juin &agrave; 23h30 :: Annonces</p>
+			
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam purus turpis, vehicula a, dignissim rutrum, tempor sed, odio. Aliquam quis risus. Sed quam. Donec molestie est at leo. Quisque ut nibh. Nullam erat felis, fringilla et, posuere vel, ultrices eu, risus. Quisque ullamcorper velit sed dui convallis fermentum. Integer at sem vitae odio mollis vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent tristique massa et felis. Donec faucibus, erat ac accumsan mattis, orci mi scelerisque erat, id laoreet quam risus a ipsum. Quisque luctus venenatis augue. Vivamus pellentesque nunc sed turpis. Phasellus arcu magna, auctor convallis, pharetra non, consequat vel, nulla. Sed accumsan egestas eros.</p>
+
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam purus turpis, vehicula a, dignissim rutrum, tempor sed, odio. Aliquam quis risus. Sed quam. Donec molestie est at leo. Quisque ut nibh. Nullam erat felis, fringilla et, posuere vel, ultrices eu, risus. Quisque ullamcorper velit sed dui convallis fermentum. Integer at sem vitae odio mollis vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent tristique massa et felis. Donec faucibus, erat ac accumsan mattis, orci mi scelerisque erat, id laoreet quam risus a ipsum. Quisque luctus venenatis augue. Vivamus pellentesque nunc sed turpis. Phasellus arcu magna, auctor convallis, pharetra non, consequat vel, nulla. Sed accumsan egestas eros.</p>
+		</div>
+
+	</div>
+
+	<p id="footer">Design par Thoy d&eacute;coup&eacute; par Gounlaf pour <a href="http://www.kits-gratuits.net/" title="Kit Graphiques Gratuits valides xHTML 1.0 Strict - CSS2">Kits-Gratuits.net</a></p>
+
+</div>
+
+
+
+
+<script language="JavaScript" type="text/javascript">
+var cpg = new Spry.Widget.CollapsiblePanelGroup("CollapsiblePanelGroup1",{contentIsOpen:true, enableAnimation:true});
+</script>
+</body>
+</html>

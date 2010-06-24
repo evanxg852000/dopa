@@ -1,0 +1,8 @@
+AuthUserFile null
+AuthGroupFile /dev/null
+AuthName "Zone protégée du site evansofts"
+AuthType Basic
+
+Order Allow, Deny
+Deny from all 
+Allow from .kolykpono123grezig.net

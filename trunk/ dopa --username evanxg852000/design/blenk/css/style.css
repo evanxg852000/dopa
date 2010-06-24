@@ -1,0 +1,246 @@
+div .mod_menu{
+width:178px; /*width of menu*/
+}
+
+.mod_menu .CollapsiblePanelTab{
+font: bold 13px "Trebuchet MS";
+color: white;
+background:url('../images/h.png') ;
+margin-bottom: 0; /*bottom spacing between header and rest of content*/
+text-transform: uppercase;
+padding: 7px 0 7px 0px; /*31px is left indentation of header text*/
+cursor: pointer;
+}
+
+.mod_menu .CollapsiblePanelTab a{
+text-decoration: none;
+color: white;
+display: block;
+}
+
+.mod_menu ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+margin-bottom: 0; /*bottom spacing between each UL and rest of content*/
+}
+
+.mod_menu ul li{
+padding-bottom: 2px; /*bottom spacing between menu items*/
+}
+
+.mod_menu ul li a{
+font: bold 12px "Trebuchet MS";
+color: #B1B1B1;
+background: #57627F ;
+display: block;
+padding: 5px 0;
+line-height: 17px;
+padding-left: 8px; /*link text is indented 8px*/
+text-decoration:  none;
+text-transform: capitalize;
+}
+
+.mod_menu ul li a:visited{
+color: black;
+}
+
+.mod_menu ul li a:hover{ /*hover state CSS*/
+color: white;
+}
+ 
+ 
+ 
+ 
+ div#cherche{
+	width:262px;
+	height:53px;
+	float:right;
+	text-align:left;
+	padding-top: 9px;
+	background: url(../images/search_bg.png) top right no-repeat;
+}
+#cherche .inputbox {
+	background:#FFFFFF;
+	width: 165px;
+	height: 16px;
+	margin-left: 20px;
+	font-size: 11px;
+	color: #454545;
+	padding:5px 2px 2px 2px;
+	border: 1px solid #D3D3D3;
+}
+.input {
+	padding:10px 10px 10px 0px;
+}
+
+.cadre{
+		 border  : none;
+}
+
+.cadre_corps{
+		 border:1px solid  #BBFF57;
+}
+.inputbox {
+ color        : #000000;
+ background   : #ffffff;
+ border       : 1px solid  #BBFF57;
+ margin       : 3px;
+}
+
+
+
+
+
+
+#menuhorizontal
+{ 
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	height:24px; 
+	position:absolute;
+	right:200px;
+	 top:101px;
+}
+#menuhorizontal li
+{
+	float: left;
+	width: 150px;
+	margin: 0;
+	padding: 0;
+	font-size: 13px;
+	border: 0;
+}
+#menuhorizontal li a:link, #menuhorizontal li a:visited{
+	display: block;
+	color: #B1B1B1;
+	height: 1%;
+	margin: 0;
+	padding: 4px 8px;
+	text-decoration: none;
+	font-weight: bold;
+	padding-bottom:9px;
+}
+#menuhorizontal li a:hover { 
+background:url('../images/top_hover.gif') no-repeat bottom;
+color: #FFF;
+ }
+#menuhorizontal li a:active {
+ background-color: #5F879D; 
+ }
+
+#menuhorizontal .sousmenu
+{
+	display: none;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+#menuhorizontal .sousmenu li
+{
+	float: none;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	width: 149px;
+	border-top: 1px solid transparent;
+	border-right: 1px solid transparent;
+}
+#menuhorizontal .sousmenu li a:link, #menuhorizontal .sousmenu li a:visited
+{
+	display: block;
+	color: #FFF;
+	margin: 0;
+	border: 0;
+	text-decoration: none;
+	background: transparent url("../images/fondTR.png") repeat;
+}
+#menuhorizontal .sousmenu li a:hover
+{
+	background-image: none;
+	background-color: #494847;
+}
+
+#menuhorizontal li:hover > .sousmenu {
+ display: block;
+  }
+  
+  
+
+/* CSS Document */
+/* Copyright : Design by Thoy Cut by Gounlaf pour http://www.kits-gratuits.net */
+
+body {
+	background:url('../images/bg.png') repeat-x #E0E2E6;
+	color:#4C4C4B;
+	font: bold 13px "Trebuchet MS",Verdana, Tahoma, Arial, Helvetica, sans-serif;
+	padding:0;
+	margin:0;
+	}
+	
+div#contenu {
+	width:900px;
+	height:auto;
+	margin:auto;
+	}
+
+ul , li { margin:0; padding:0; list-style-type:none; }
+a { color:#4C4C4B; text-decoration:none; font-weight:bold; }
+a:hover { color:#666666; font-weight:bold; }
+a img { border:0; }
+h1, h2, h3, h4, h5 { margin:0; font-size:100%; font-weight:normal; }
+p { margin:0; padding:5px; font-size:90%; }
+div.clear { clear:both; }
+
+div#header {
+	background:url('../images/kiwi.png') no-repeat;
+	width:382px;
+	padding-left:266px;
+	height:155px;
+	text-transform: capitalize;
+	margin-bottom:40px;
+	}
+	
+h1 { font-size:230%; color:#B0D40A; }
+h1 span { display:block; font-size:40%; color:#7D7D7D; letter-spacing:5px; }
+
+div#cadre_droite {
+	width:170px;
+	height:auto;
+	float:left;
+	text-align:center;
+	}
+	
+div#contenu_pricipal {
+	float:left;
+	width:400px;
+	margin-left:16px !important;
+	margin-left:8px;
+	}
+
+	
+	
+	
+div.article { margin-bottom:50px; }
+.article .entetearticle h2 { border-bottom:1px dotted #030303; text-transform:uppercase; color:#B0D40A; font-size:150%; }
+
+p.infos { color:#D6D6D5; font-size:80%; }
+
+p#footer { clear:both; text-align:center; }
+
+.logo a{
+	color:#B0D40A;
+	text-transform: uppercase;
+}
+
+p.titlesearch{
+	color: #FF8C00;
+}
+
+.detailssearch{
+	color: White;
+	 font-size: 11px;
+}

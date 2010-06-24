@@ -1,0 +1,4 @@
+<?php
+include("../../system.admin.php");
+echo "$LANGAGE|$SITENAME|$GREET_MSG|$COPYRIGHT|$MODE|$VALID_PROCEDURE|$EMAIL_ADMIN|$NB_CHARGEMENT_PAR_MN|$DELAI|$KEYWORDS|";
+?>

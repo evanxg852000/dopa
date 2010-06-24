@@ -1,0 +1,9 @@
+ErrorDocument 401 http://localhost/DopaV03/erreurs/erreur_401.php
+ErrorDocument 402 http://localhost/DopaV03/erreurs/erreur_402.php
+ErrorDocument 403 http://localhost/DopaV03/erreurs/erreur_403.php
+ErrorDocument 404 http://localhost/DopaV03/erreurs/erreur_404.php
+ErrorDocument 405 http://localhost/DopaV03/erreurs/erreur_405.php
+ErrorDocument 406 http://localhost/DopaV03/erreurs/erreur_406.php
+
+
+ErrorDocument 500 http://localhost/DopaV03/erreurs/erreur_500.php

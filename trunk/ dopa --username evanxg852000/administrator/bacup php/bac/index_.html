@@ -1,0 +1,48 @@
+<?php
+include("connection.php");
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- NE PAS CHANGER LES LIGNES PRECEDENTES-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<LINK rel="stylesheet" href="style/css/connexion.css" type="text/css">
+	<link rel="shortcut icon" href="style/images/favicon.ico" />
+    <title></title>
+ 
+</head>
+<body >
+<div id="contenu">
+	<div id="header">
+		<h1><A href="#" id="logo"><h2>Admin-<?php  echo $LANG['sitename']; ?> </h2></A><span>Dopa V0.3 Express Edition</span></h1>
+		
+		<ul id="menu">
+			<li><a href="../index.php">Accueil-<?php  echo $LANG['sitename']; ?> </a></li>
+			<li><a href="#">Dopa Ressources </a></li>
+			<li><a href="#">Forum Dopa</a></li>
+		</ul>
+	</div>
+	<center>
+		<div id="conecform">
+							<div id="ecart">  </div>
+							<img src="images/security.png">
+							<form action="index.php" method="post" name="login" class="login-username" >
+									<p id="form-login-username">
+										<label for="modlgn_username">Identifiant :</label><br />
+										<input id="modlgn_username" type="text" class="inputbox" size="18" alt="username" name="login" value="<?php if (isset($_POST['login'])) echo htmlentities(trim($_POST['login'])); ?>"  >
+									</p>
+									<p id="form-login-password">
+										<label for="modlgn_passwd">Mot de passe:</label><br />
+										<input id="modlgn_passwd" class="inputbox" size="18" type="password" name="pass" value="<?php if (isset($_POST['pass'])) echo htmlentities(trim($_POST['pass'])); ?>">
+									</p>
+										<input type="submit" name="connexion" class="button" value="Connexion" />
+							</form>
+		<div>
+		
+    </center>
+	
+	<P id="footer">       Evansofts TM. Tous Droits Réservés.  &copy  2007-2009 </P>
+</div>
+
+</body>
+</html>

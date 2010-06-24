@@ -1,0 +1,43 @@
+
+.mes_info{
+position :relative ;
+top: 0px;
+background: #A3E6A3  ;
+color:#222222;
+text-align:center;
+font-size: 10px;
+}
+
+.mes_eror{
+position :relative ;
+top: 0px;
+background:#FFB497 ;
+color:#222222;
+text-align:center;
+font-size: 10px;
+}
+
+.mes_applic{
+position :relative ;
+top: 0px;
+background:#FFFF9B ;
+color:#222222;
+text-align:center;
+font-size: 10px;
+}
+/*couleur pour le sondage*/
+.couleur_1{ 	background-color: #8D1B1B; }
+
+.couleur_2{ background-color: #6740E1;  }
+
+.couleur_3{ background-color: #8D8D8D; }
+
+.couleur_4{ background-color: #CC8500;  }
+
+.couleur_5{ background-color: #5B781E; }
+
+.couleur_6{ background-color: #EFB4B4;  }
+
+.couleur_7{ background-color: #FFEE88; }
+
+.couleur_8{ background-color: #CFFF88;  }
