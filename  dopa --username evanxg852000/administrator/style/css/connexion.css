@@ -1,0 +1,136 @@
+/* CSS Document */
+/* Copyright : Design by Thoy Cut by Gounlaf pour http://www.kits-gratuits.net */
+
+body {
+	background:url('../images/bg.png') repeat-x #E0E2E6;
+	color:#4C4C4B;
+	font: bold 13px "Trebuchet MS",Verdana, Tahoma, Arial, Helvetica, sans-serif;
+	padding:0;
+	margin:0;
+	}
+	
+div#contenu {
+	/*/width:648px; */
+	height:auto;
+	margin:auto;
+	}
+	#logo{
+		color:#B0D40A;
+	}
+
+ul , li { margin:0; padding:0; list-style-type:none; }
+a { color:#4C4C4B; text-decoration:none; font-weight:bold; }
+a:hover { color:#666666; font-weight:bold; }
+a img { border:0; }
+h1, h2, h3, h4, h5 { margin:0; font-size:100%; font-weight:normal; }
+p { margin:0; padding:5px; font-size:90%; }
+div.clear { clear:both; }
+
+div#header {
+	background:url('../images/kiwi.png') no-repeat;
+	width:382px;
+	padding-left:266px;
+	height:126px;
+	text-transform:uppercase;
+	margin-bottom:40px;
+	}
+	
+h1 { font-size:200%; color:#B0D40A; }
+h1 span { display:block; font-size:40%; color:#B8B8B8; letter-spacing:3px; }
+ul#menu {height:24px; position:absolute; right:200px;top:101px; }
+#menu li { display:inline; margin-right:35px; }
+#menu a { color:#B8B8B8; font-weight: bold; padding-bottom:9px; }
+#menu a:hover { color:#fff; background:url('../images/top_hover.gif') no-repeat bottom; }
+
+#ecart{
+	 height: 70px;
+}
+#conecform{
+	 width: 700px;
+}
+#footer{
+	height:30px;
+	clear:both;
+	text-align:center; 
+	font-size: 13px ;
+}
+.button{
+	border: solid 1px Gray;
+	color: White;
+	background: url('../images/bt.png');
+	font-weight: bold;
+	 font-family: "Trebuchet MS", Hevlvetica, sans-serif;
+}
+.inputbox {
+	padding: 2px;
+	border:solid 1px  ;
+	border: White;
+	background-color: #494949;
+	color: #ffffff;
+	font: 11px "Trebuchet MS";
+}
+
+.mes_eror{
+position :relative ;
+top: 0px;
+background:#FFB497 ;
+ border: #981D1D solid 1px;
+color:#222222;
+text-align:center;
+font-size: 10px;
+}
+
+
+input{
+padding:3px;
+border-left:1px solid #a8a8a8;
+border-top:1px solid #a8a8a8;
+border-right:1px solid #d8d8d8;
+border-bottom:1px solid #d8d8d8;
+-moz-border-radius:3px;
+margin:3px;}
+#save{
+width:100px;
+color:#fff;
+background: url('../images/bt.png');
+border-left:1px solid #084577;border-top:1px solid #084577;border-right:1px solid #7ab7e8;border-bottom:1px solid #7ab7e8;}
+#login{background:url('../images/security.png') #fff 220px 55px no-repeat;padding-left:10px;text-align:left;}
+#login_container{	overflow:hidden;   width:360px; margin:0 auto;background:url(../img/overlay.jpg) no-repeat;}
+#login label span{display:block;width:100px;float:left}
+
+
+ul{list-style:circle;margin:10px;margin-left:20px;}
+ol{list-style:decimal;margin:10px;margin-left:20px;}
+p.info{border:1px solid #6aa6d6;background:#c9e3f8;}
+fieldset{border:1px solid #ddd;padding:10px;background:#fff;margin:10px 0px;}
+legend{border:1px solid #ddd;padding:5px;background:#fff;}
+label{display:block;}
+label input{margin-left:30px;}
+hr { border: 1px #ddd solid; width: 80%;}
+button {text-transform:uppercase;font-size:10px;padding:3px;color:#fff;background:#4780ae;border-left:1px solid #084577;border-top:1px solid #084577;border-right:1px solid #7ab7e8;border-bottom:1px solid #7ab7e8;-moz-border-radius:3px;margin:3px;margin-top:5px;}
+div#login {width:260px;margin: 10px auto;border-top:2px solid #162635;}
+a#passwordrecoverylink{font-size:10px;text-decoration:underline;display:block;text-align:right;color:#999;}
+a:hover#passwordrecoverylink{color:#000;}
+.loginbutton{margin-left:160px;}
+#login input#remember{margin:10px 5px 0px 10px;}
+#container{	overflow:hidden;   width:960px; margin:0 auto;background:url(../img/overlay.jpg) no-repeat;}
+
+.section,.panel,#shortcuts,#chart,.quickview{background:#fff;padding:10px;border-top:1px solid #ddd;border-bottom:1px solid #ddd;-moz-border-radius:3px;}
+#postedit,#panels,#shortcuts{margin-top:10px;}
+.section{margin-top:10px;}
+.div#logo h1{padding:0px;margin:0px;}
+div#logo h1 a{display:block;text-indent:-9999px;width:367px;height:107px;background:url(../img/logo.jpg) no-repeat;}
+
+
+#placeholder{width:180px;height:95px;padding:10px;padding-bottom:14px;}
+.more{font-size:13px;}
+.approved{font-weight:bold;color:#25a21f}
+#success{margin:-px 0px;border:1px solid #b2dc4d;color:#40550d;font-family:"Arial", Arial, sans-serif;font-size:12px;background:#cce297;font-weight:700;padding:5px;-moz-border-radius:3px;-webkit-border-radius: 3px;}
+#fail{margin:5px 0px;border:1px solid #c82820;color:#c82820;font-family:"Arial", Arial, sans-serif;font-size:12px;font-weight:700;background:#e7928d;padding:5px;-moz-border-radius:3px;-webkit-border-radius: 3px;}
+#warning{margin:5px 0px;border:1px solid #efdc90;color:#a9a014;font-family:"Arial", Arial, sans-serif;font-size:12px;font-weight:700;background:#fffecc;padding:5px;-moz-border-radius:3px;-webkit-border-radius: 3px;}
+
+a#visit{display:block;color:#fff;background:#4780ae;border-left:1px solid #084577;border:1px solid #7ab7e8;padding:4px;margin:5px 15px 0px 0px;-moz-border-radius:3px;}
+a.add{display:block;width:80px;text-align:center;color:#fff;background:#4780ae;border:1px solid #4780ae;padding:4px;margin:10px 15px 0px 0px;-moz-border-radius:3px;text-transform:uppercase;}
+
+input#post_title{width:925px;margin:0px;border-left:1px solid #a8a8a8;border-top:1px solid #a8a8a8;border-right:1px solid #d8d8d8;border-bottom:1px solid #d8d8d8;-moz-border-radius:3px;font-size:28px;padding:5px;}
+.form_sidebar span{display:block;padding:5px 5px;background:#eee;margin-bottom:10px;}

@@ -1,0 +1,13 @@
+<install>
+	<version>0.2</version>
+	<type>plugin</type>
+	<name>evantalk</name>
+	<files>
+		<file>gre.png</file>
+        <file>freg.png</file>
+	</files>
+	<sqls>
+		<sql>create table pagres</sql>
+		<sql>create table groub</sql>
+	</sqls>
+</install>

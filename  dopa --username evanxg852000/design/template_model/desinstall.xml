@@ -1,0 +1,13 @@
+<install>
+	<version>0.2</version>
+	<type>design</type>
+	<name>blenk</name>
+	<lien>null</lien>
+	<files>
+		<file>gre.png</file>
+        <file>freg.png</file>
+	</files>
+	<sqls>
+		<sql>null</sql>
+	</sqls>
+</install>

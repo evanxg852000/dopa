@@ -1,0 +1,7 @@
+AuthUserFile /kernel/.htpasswd
+AuthGroupFile /dev/null
+AuthName KernelArea
+AuthType Basic
+
+Order Deny,Allow
+Deny from All

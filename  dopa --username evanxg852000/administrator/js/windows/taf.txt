@@ -1,0 +1,17 @@
+Accessoire
+sondage_gestion
+template_gestio=d
+message_lire=d
+
+
+
+demain----------
+categorie
+article
+
+--------
+mmenu deroulants
+
+installer desintaller---------
+template
+plugin

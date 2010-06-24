@@ -1,0 +1,140 @@
+
+#calendar {
+	font-family: calibri, arial;
+	color: black;
+	display: block;
+	margin: auto;
+	z-index:1200;
+}
+
+#calendar, #calendar div {
+	text-align: left;
+	width: 164px;
+	height: 145px;
+}
+
+#calendar div {
+	position: absolute;
+}
+
+#calendar div.container {
+	overflow: hidden !important;
+}
+
+#calendar span.indication {
+	display: block;
+	text-align: center;
+}
+
+#calendar table {
+	margin-top: 10px;
+	text-align: right;
+	border-collapse: collapse;
+	background-color: white; /* <- fixing ugly text bug in ie7 */
+}
+
+#tempLoader {
+	margin-left: -999px;
+}
+
+/* label & arrows */
+
+#arrowLeft {
+	padding: 3px 8px 3px 5px;
+	float: left;
+	cursor: pointer;
+}
+
+#arrowRight {
+	padding: 3px 5px 3px 8px;
+	float: right;
+	cursor: pointer;
+}
+
+#label:hover {
+	color: #0066cc;
+}
+
+/* month */
+
+.month th {
+	text-align: center;
+	font-weight: normal;
+	width: 24px;
+	padding-bottom: 1px;
+	border-bottom: 1px solid #f5f5f5;
+}
+
+.month td {
+	padding-right: 3px;
+	height: 15px;
+	font-size: 10px;
+	text-align: center;
+}
+
+.month td:hover {
+	background: url('../images/day_hover.gif') bottom no-repeat;
+	color: #0066cc;
+	
+}
+
+.month td.today {
+	background: url('../images/today.gif') bottom no-repeat;
+	color: #0066cc;
+}
+.month td.today:hover {
+	background: url('../images/today_hover.gif') bottom no-repeat;
+}
+
+.month td.outsideDay {
+	color: #a8a8a8;
+}
+.month td.outsideDay:hover {
+	color: #b1c5fc;
+}
+
+/* year & decade */
+
+.year {
+	margin-left: 2px;
+	font-size: 12px;
+}
+
+.year td {
+	width: 40px;
+	height: 35px;
+	text-align: center;
+}
+.year td:hover {
+	background: url('../images/month_hover.gif') center no-repeat;
+	color: #0066cc;
+}
+
+.year td.selected {
+	background: url('../images/month_selected.gif') center no-repeat;
+}
+.year td.selected:hover {
+	background: url('../images/month_selected_hover.gif') center no-repeat;
+}
+
+.year td.current {
+	background: url('../images/month_current.gif') center no-repeat;
+	color: #0066cc;
+}
+.year td.current:hover {
+	background: url('../images/month_current_hover.gif') center no-repeat;
+}
+
+.year td.selectedcurrent {
+	background: url('../images/month_selectedcurrent.gif') center no-repeat;
+}
+.year td.selectedcurrent:hover {
+	background: url('../images/month_selectedcurrent_hover.gif') center no-repeat;
+}
+
+.year td.outsideYear {
+	color: #a8a8a8;
+}
+.year td.outsideYear:hover {
+	color: #b1c5fc;
+}

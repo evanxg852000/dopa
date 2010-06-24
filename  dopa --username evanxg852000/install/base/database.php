@@ -1,0 +1,41 @@
+<?php 
+$TABLES=array(); 
+$TABLES[0]="CREATE TABLE ".$prefixe."article (  Num smallint(6) NOT NULL auto_increment,  Nom varchar(25) NOT NULL,  Publie varchar(1) NOT NULL default 'Y',  Contenu text NOT NULL,  Num_ca smallint(6) NOT NULL,  PRIMARY KEY  (Num)) ENGINE=InnoDB DEFAULT CHARSET=latin1  ;";
+$TABLES[1]="CREATE TABLE ".$prefixe."categorie ( Num int(11) NOT NULL auto_increment,Nom varchar(23) NOT NULL, Publie varchar(1) NOT NULL default 'Y', PRIMARY KEY  (Num)) ENGINE=InnoDB DEFAULT CHARSET=latin1 ;";
+$TABLES[2]="CREATE TABLE ".$prefixe."cherche ( Num_rc int(11) NOT NULL auto_increment, Mot_cle varchar(30) NOT NULL, Lien varchar(40) NOT NULL, Details varchar(200) NOT NULL, PRIMARY KEY  (Num_rc)) ENGINE=MyISAM  DEFAULT CHARSET=latin1  ;";
+$TABLES[3]="CREATE TABLE ".$prefixe."compteur ( ipCon char(40) NOT NULL, heureCon bigint(16) NOT NULL, dateCon date NOT NULL, lheure time NOT NULL, Nb_charg smallint(6) NOT NULL default '1', Etat char(1) NOT NULL default 'N', PRIMARY KEY  (ipCon)) ENGINE=InnoDB DEFAULT CHARSET=latin1;";
+$TABLES[4]="CREATE TABLE ".$prefixe."enligne ( Num smallint(6) NOT NULL,Etat varchar(5) NOT NULL,PRIMARY KEY  (Num)) ENGINE=InnoDB DEFAULT CHARSET=latin1;";
+$TABLES[5]="CREATE TABLE ".$prefixe."menu (Num smallint(5) NOT NULL, Type varchar(15) NOT NULL default 'Menu Simple',PRIMARY KEY  (Num)) ENGINE=InnoDB DEFAULT CHARSET=latin1;";
+$TABLES[6]="CREATE TABLE ".$prefixe."messages ( Num int(11) NOT NULL auto_increment, Email varchar(30) NOT NULL, Objet varchar(20) NOT NULL, Contenu varchar(400) NOT NULL, Lu varchar(1) NOT NULL default 'N', Date date NOT NULL, PRIMARY KEY  (Num)) ENGINE=MyISAM  DEFAULT CHARSET=latin1 ;";
+$TABLES[7]="CREATE TABLE ".$prefixe."news (Num int(11) NOT NULL auto_increment,Nom text NOT NULL,Contenu text NOT NULL,Publie varchar(1) NOT NULL default 'Y', Date date NOT NULL, PRIMARY KEY  (Num)) ENGINE=InnoDB DEFAULT CHARSET=latin1  ;";
+$TABLES[8]="CREATE TABLE ".$prefixe."newsletter (Num int(11) NOT NULL auto_increment,Email varchar(30) NOT NULL, PRIMARY KEY  (Num)) ENGINE=MyISAM  DEFAULT CHARSET=latin1  ;";
+$TABLES[9]="CREATE TABLE ".$prefixe."plugins (Num smallint(6) NOT NULL auto_increment, Nom varchar(23) NOT NULL,Lien varchar(30) NOT NULL,Publie varchar(1) NOT NULL default 'Y', PRIMARY KEY  (Num)) ENGINE=InnoDB DEFAULT CHARSET=latin1 ;";
+$TABLES[10]="CREATE TABLE ".$prefixe."publicite (Num smallint(6) NOT NULL auto_increment,Titre varchar(20) NOT NULL,Lien varchar(30) NOT NULL,Description varchar(100) NOT NULL,Publie varchar(1) NOT NULL default 'N',PRIMARY KEY  (Num)) ENGINE=InnoDB DEFAULT CHARSET=latin1  ;";
+$TABLES[11]="CREATE TABLE ".$prefixe."reponse (Num int(6) NOT NULL auto_increment,Reponse varchar(30) NOT NULL,Nb_vote smallint(6) NOT NULL,  Num_so smallint(6) NOT NULL, PRIMARY KEY  (Num)) ENGINE=InnoDB DEFAULT CHARSET=latin1 ;";
+$TABLES[12]="CREATE TABLE ".$prefixe."resultat (Num_res int(11) NOT NULL auto_increment, Reponse varchar(60) NOT NULL,Num_so smallint(6) NOT NULL,PRIMARY KEY  (Num_res)) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;";
+$TABLES[13]="CREATE TABLE ".$prefixe."rssnews (Num smallint(6) NOT NULL auto_increment,Titre varchar(40) NOT NULL,Lien varchar(50) NOT NULL,Description varchar(200) NOT NULL,  Date varchar(30) NOT NULL,  PRIMARY KEY  (Num)) ENGINE=InnoDB DEFAULT CHARSET=latin1  ;";
+$TABLES[14]="CREATE TABLE ".$prefixe."sondage (Num int(11) NOT NULL auto_increment,Nom varchar(30) NOT NULL,Question varchar(100) NOT NULL,Publie varchar(1) NOT NULL default 'N', PRIMARY KEY  (Num)) ENGINE=InnoDB DEFAULT CHARSET=latin1  ;";
+$TABLES[15]="CREATE TABLE ".$prefixe."template (Num int(11) NOT NULL auto_increment,Nom varchar(30) NOT NULL,Etat smallint(6) NOT NULL default '0', PRIMARY KEY  (Num)) ENGINE=InnoDB DEFAULT CHARSET=latin1 ;";
+$TABLES[16]="CREATE TABLE ".$prefixe."utilisateur (Num int(6) NOT NULL auto_increment,Mot_pass varchar(11) NOT NULL,Nom varchar(50) NOT NULL,Login varchar(20) NOT NULL,Fonction varchar(10) NOT NULL default 'invite',Niv_acces varchar(14) default NULL,Mail varchar(30) NOT NULL,Etat char(1) NOT NULL default 'N', PRIMARY KEY  (Num)) ENGINE=MyISAM  DEFAULT CHARSET=latin1  ;";
+$TABLES[17]="INSERT INTO  ".$prefixe."utilisateur values(NULL, '".md5('admin')."', 'admin', 'Admin', 'admin', 'Super_admin', 'admin@admin.fr', 'N');";
+	 
+$TABLES_SQLITE=array(); 
+$TABLES_SQLITE[0]="CREATE TABLE ".$prefixe."article (  Num smallint(6) NOT NULL ,  Nom varchar(25) NOT NULL,  Publie varchar(1) NOT NULL default 'Y',  Contenu text NOT NULL,  Num_ca smallint(6) NOT NULL,  PRIMARY KEY  (Num)) ;";
+$TABLES_SQLITE[1]="CREATE TABLE ".$prefixe."categorie ( Num int(11) NOT NULL ,Nom varchar(23) NOT NULL, Publie varchar(1) NOT NULL default 'Y', PRIMARY KEY  (Num)) ;";
+$TABLES_SQLITE[2]="CREATE TABLE ".$prefixe."cherche ( Num_rc int(11) NOT NULL , Mot_cle varchar(30) NOT NULL, Lien varchar(40) NOT NULL, Details varchar(200) NOT NULL, PRIMARY KEY  (Num_rc)) ;";
+$$TABLES_SQLITE[3]="CREATE TABLE ".$prefixe."compteur ( ipCon char(40) NOT NULL, heureCon bigint(16) NOT NULL, dateCon date NOT NULL, lheure time NOT NULL, Nb_charg smallint(6) NOT NULL default '1', Etat char(1) NOT NULL default 'N', PRIMARY KEY  (ipCon)) ;";
+$$TABLES_SQLITE[4]="CREATE TABLE ".$prefixe."enligne ( Num smallint(6) NOT NULL,Etat varchar(5) NOT NULL,PRIMARY KEY  (Num)) ;";
+$$TABLES_SQLITE[5]="CREATE TABLE ".$prefixe."menu (Num smallint(5) NOT NULL, Type varchar(15) NOT NULL default 'Menu Simple',PRIMARY KEY  (Num)) ;";
+$$TABLES_SQLITE[6]="CREATE TABLE ".$prefixe."messages ( Num int(11) NOT NULL , Email varchar(30) NOT NULL, Objet varchar(20) NOT NULL, Contenu varchar(400) NOT NULL, Lu varchar(1) NOT NULL default 'N', Date date NOT NULL, PRIMARY KEY  (Num)) ;";
+$$TABLES_SQLITE[7]="CREATE TABLE ".$prefixe."news (Num int(11) NOT NULL ,Nom text NOT NULL,Contenu text NOT NULL,Publie varchar(1) NOT NULL default 'Y', Date date NOT NULL, PRIMARY KEY  (Num)) ;";
+$$TABLES_SQLITE[8]="CREATE TABLE ".$prefixe."newsletter (Num int(11) NOT NULL ,Email varchar(30) NOT NULL, PRIMARY KEY  (Num)) ;";
+$$TABLES_SQLITE[9]="CREATE TABLE ".$prefixe."plugins (Num smallint(6) NOT NULL , Nom varchar(23) NOT NULL,Lien varchar(30) NOT NULL,Publie varchar(1) NOT NULL default 'Y', PRIMARY KEY  (Num)) ;";
+$$TABLES_SQLITE[10]="CREATE TABLE ".$prefixe."publicite (Num smallint(6) NOT NULL ,Titre varchar(20) NOT NULL,Lien varchar(30) NOT NULL,Description varchar(100) NOT NULL,Publie varchar(1) NOT NULL default 'N',PRIMARY KEY  (Num)) ;";
+$$TABLES_SQLITE[11]="CREATE TABLE ".$prefixe."reponse (Num int(6) NOT NULL ,Reponse varchar(30) NOT NULL,Nb_vote smallint(6) NOT NULL,  Num_so smallint(6) NOT NULL, PRIMARY KEY  (Num))  ;";
+$$TABLES_SQLITE[12]="CREATE TABLE ".$prefixe."resultat (Num_res int(11) NOT NULL , Reponse varchar(60) NOT NULL,Num_so smallint(6) NOT NULL,PRIMARY KEY  (Num_res)) ;";
+$$TABLES_SQLITE[13]="CREATE TABLE ".$prefixe."rssnews (Num smallint(6) NOT NULL ,Titre varchar(40) NOT NULL,Lien varchar(50) NOT NULL,Description varchar(200) NOT NULL,  Date varchar(30) NOT NULL,  PRIMARY KEY  (Num))  ;";
+$$TABLES_SQLITE[14]="CREATE TABLE ".$prefixe."sondage (Num int(11) NOT NULL ,Nom varchar(30) NOT NULL,Question varchar(100) NOT NULL,Publie varchar(1) NOT NULL default 'N', PRIMARY KEY  (Num))  ;";
+$$TABLES_SQLITE[15]="CREATE TABLE ".$prefixe."template (Num int(11) NOT NULL ,Nom varchar(30) NOT NULL,Etat smallint(6) NOT NULL default '0', PRIMARY KEY  (Num))  ;";
+$$TABLES_SQLITE[16]="CREATE TABLE ".$prefixe."utilisateur (Num int(6) NOT NULL ,Mot_pass varchar(11) NOT NULL,Nom varchar(50) NOT NULL,Login varchar(20) NOT NULL,Fonction varchar(10) NOT NULL default 'invite',Niv_acces varchar(14) default NULL,Mail varchar(30) NOT NULL,Etat char(1) NOT NULL default 'N', PRIMARY KEY  (Num)) ;";
+$TABLES[17]="INSERT INTO  ".$prefixe."utilisateur values(NULL, '".md5('admin')."', 'admin', 'Admin', 'admin', 'Super_admin', 'admin@admin.fr', 'N');";
+?>

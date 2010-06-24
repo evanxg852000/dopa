@@ -1,0 +1,143 @@
+  body {
+        margin:0;
+        padding:0;
+        font: bold 11px "Trebuchet MS";
+		  background: Black;
+		  color: White;
+}
+
+h2 {
+        font: bold 14px "Trebuchet MS";
+        color: #fff;
+        margin: 0px;
+        padding: 0px 0px 0px 15px;
+}
+
+
+/*- Menu Tabs E--------------------------- */
+
+    #tabsE {
+      width:100%;
+      background:#000;
+		border: #494949 solid 1px;
+      line-height:normal; 
+		}
+    #tabsE ul {
+        margin:0;
+        padding:10px 10px 0 50px;
+        list-style:none;
+      }
+    #tabsE li {
+      display:inline;
+      margin:0;
+      padding:0;
+      }
+    #tabsE a {
+      float:left;
+      background:url("../images/tableftE.gif") no-repeat left top;
+      margin:0;
+      padding:0 0 0 4px;
+      text-decoration:none;
+      }
+    #tabsE a span {
+      float:left;
+      display:block;
+      background:url("../images/tabrightE.gif") no-repeat right top;
+      padding:5px 15px 4px 6px;
+      color:#FFF;
+		font-size: 12px;
+      }
+    /* Commented Backslash Hack hides rule from IE5-Mac \*/
+    #tabsE a span {float:none;}
+    /* End IE5-Mac hack */
+    #tabsE a:hover span {
+      color:#FFF;
+      }
+    #tabsE a:hover {
+      background-position:0% -42px;
+      }
+    #tabsE a:hover span {
+      background-position:100% -42px;
+      }
+
+#tabsE #current a {
+   background-position:0% -42px;
+}
+#tabsE #current a span {
+   background-position:100% -42px;
+}
+table.pag{
+	border-left: #494949 solid 1px;
+	border-right: #494949 solid 1px;
+	border-bottom: #494949 solid 1px;
+	background: Black;
+	color: White;
+	width:1070px;
+}
+/*====================element====================*/
+.button {
+  color: #ffffff;
+  font-family: "Trebuchet MS", Hevlvetica, sans-serif;
+  text-align: center;
+  font-size: 11px;
+  border:double 3px #cccccc;
+  background:url("../images/button_bg.gif") ;
+  text-transform: capitalize; 
+}
+
+.inputbox {
+	padding: 0px;
+	border:solid 1px #cccccc;
+	background-color: #494949;
+	color: #ffffff;
+	font: 11px "Trebuchet MS";
+}
+
+.mes_info{
+position :relative ;
+top: 0px;
+background: #A3E6A3  ;
+color:#222222;
+text-align:center;
+font-size: 10px;
+}
+
+.mes_eror{
+position :relative ;
+top: 0px;
+background:#FFB497 ;
+color:#222222;
+text-align:center;
+font-size: 10px;
+}
+
+.mes_applic{
+position :relative ;
+top: 0px;
+background:#FFFF9B ;
+color:#222222;
+text-align:center;
+font-size: 10px;
+}
+tr.entete{
+	background: #710000;
+	color:  White;
+}
+
+tr.result {
+	border-top: solid 1px #9ECF3B;
+	background: #646464;
+	color:  #fff;
+}
+tr.result:hover{
+	border-top: solid 1px #9ECF3B;
+	background: #3F3F3F;
+	color: #ffff;
+}
+.barlien{
+	background: #A1E9FF;
+	border: #39D0FF solid 1px;
+	text-decoration: none;
+	color:  #848484;
+   font-weight: bold;
+}

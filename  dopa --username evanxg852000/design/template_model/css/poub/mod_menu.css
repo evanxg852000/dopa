@@ -1,0 +1,50 @@
+div .mod_menu{
+width:158px; /*width of menu*/
+}
+
+.mod_menu .CollapsiblePanelTab{
+font: bold 13px "Trebuchet MS";
+color: white;
+background:url('./images/h.png') ;
+margin-bottom: 0; /*bottom spacing between header and rest of content*/
+text-transform: uppercase;
+padding: 7px 0 7px 0px; /*31px is left indentation of header text*/
+cursor: pointer;
+}
+
+.mod_menu .CollapsiblePanelTab a{
+text-decoration: none;
+color: white;
+display: block;
+}
+
+.mod_menu ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+margin-bottom: 0; /*bottom spacing between each UL and rest of content*/
+}
+
+.mod_menu ul li{
+padding-bottom: 2px; /*bottom spacing between menu items*/
+}
+
+.mod_menu ul li a{
+font: bold 12px "Trebuchet MS";
+color: #B1B1B1;
+background: #57627F ;
+display: block;
+padding: 5px 0;
+line-height: 17px;
+padding-left: 8px; /*link text is indented 8px*/
+text-decoration:  none;
+text-transform: capitalize;
+}
+
+.mod_menu ul li a:visited{
+color: black;
+}
+
+.mod_menu ul li a:hover{ /*hover state CSS*/
+color: white;
+}

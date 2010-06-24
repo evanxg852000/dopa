@@ -1,0 +1,10 @@
+.succes{
+	background: #B6DB6C;
+	height: 50px;
+	border:solid 1px #BBC4CC;
+}
+.fail{
+	background: #E98989;
+	height: 50px;
+	border:solid 1px #BBC4CC;
+}

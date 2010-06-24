@@ -1,0 +1,17 @@
+<HTML>
+<HEAD>
+<SCRIPT LANGUAGE="javascript">
+function afficher(form2) {
+var testin =document. form2.input.value;
+document.form2.output.value=testin
+}
+</SCRIPT>
+</HEAD>
+<BODY>
+<FORM NAME="form2">
+<INPUT TYPE="text" NAME="input" VALUE=""> Zone de texte d'entrée <BR>
+<INPUT TYPE="button" NAME="bouton" VALUE="Afficher" onclick="afficher(form2)"><BR>
+<INPUT TYPE="text" NAME="output" VALUE=""> Zone de texte de sortie
+</FORM>
+</BODY>
+</HTML>

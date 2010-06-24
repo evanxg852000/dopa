@@ -1,0 +1,127 @@
+
+#menuhorizontal
+{ 
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	height:24px; 
+	position:absolute;
+	right:200px;
+	top:101px;
+}
+#menuhorizontal li
+{
+	float: left;
+	width: 150px;
+	margin: 0;
+	padding: 0;
+	font-size: 13px;
+	border: 0;
+}
+#menuhorizontal li a:link, #menuhorizontal li a:visited{
+	display: block;
+	color: #B1B1B1;
+	height: 1%;
+	margin: 0;
+	padding: 4px 8px;
+	text-decoration: none;
+	font-weight: bold;
+	padding-bottom:9px;
+}
+#menuhorizontal li a:hover { 
+background:url('./images/top_hover.gif') no-repeat bottom;
+color: #FFF;
+ }
+#menuhorizontal li a:active {
+ background-color: #5F879D; 
+ }
+
+#menuhorizontal .sousmenu
+{
+	display: none;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+#menuhorizontal .sousmenu li
+{
+	float: none;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	width: 149px;
+	border-top: 1px solid transparent;
+	border-right: 1px solid transparent;
+}
+#menuhorizontal .sousmenu li a:link, #menuhorizontal .sousmenu li a:visited
+{
+	display: block;
+	color: #FFF;
+	margin: 0;
+	border: 0;
+	text-decoration: none;
+	background: transparent url("../images/fondTR.png") repeat;
+}
+#menuhorizontal .sousmenu li a:hover
+{
+	background-image: none;
+	background-color: #494847;
+}
+
+#menuhorizontal li:hover > .sousmenu {
+ display: block;
+  }
+/*------------------CORE------------*/
+body{
+	background:url('../images/bg.png') repeat-x #E0E2E6;
+	color:#4C4C4B;
+	font: bold 13px "Trebuchet MS",Verdana, Tahoma, Arial, Helvetica, sans-serif;
+	padding:0;
+	margin:0;
+}
+a { color:#4C4C4B; text-decoration:none; font-weight:bold; }
+a:hover { color:#666666; font-weight:bold; }
+a img { border:0; }
+
+h1 {
+ font-size:350%; 
+ color:#B0D40A;
+}
+
+h1 span { 
+display:block; 
+font-size:40%; 
+color:#7D7D7D;
+ letter-spacing:5px; 
+}
+h1, h2, h3, h4, h5 { margin:0; font-size:100%; font-weight:normal; }
+/*------------------menu------------*/
+
+/*------------------elements------------*/
+
+.logo a{
+	color:#B0D40A;
+	text-decoration: none;
+}
+.logo h1{
+	font-size: 36px;
+}
+/*------------------mise en page-----*/
+div#header {
+	background:url('../images/kiwi.png') no-repeat;
+	width:382px;
+	padding-left:266px;
+	height:155px;
+	text-transform:uppercase;
+	margin-bottom:40px;
+	}
+div#contenu {
+	width:900px;
+	height:auto;
+	margin:auto;
+	}
+
+
+
